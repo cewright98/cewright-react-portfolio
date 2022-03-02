@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import About from './components/About';
+import Conact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1>Claire Wright</h1>
+        <ul>
+          <li>About Me</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+          <li>Resume</li>
+        </ul>
       </header>
+      <main>
+        {/* conditionally render components here */}
+      </main>
+      <footer>
+        <ul>
+          <li>GitHub</li>
+          <li>LinkedIn</li>
+          <li>Other</li>
+        </ul>
+      </footer>
     </div>
   );
 }
