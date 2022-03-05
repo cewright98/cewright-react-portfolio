@@ -1,13 +1,33 @@
-function Header() {
+import React from "react";
+
+function Header(props) {
+  const {
+    navOptions = [],
+    currentNav,
+    setCurrentNav
+  } = props;
+
+  console.log(navOptions);
+
   // return JSX for my name and nav links
   return (
     <section>
       <h1>Claire Wright</h1>
       <ul>
-        <li>About Me</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-        <li>Resume</li>
+        {navOptions.map((option) => (
+          <li 
+            className={`${currentNav === option && 'navActive'}`}
+            key={option}
+          >
+            <span
+              onClick={() => {
+                setCurrentNav(option);
+              }}
+            >
+              {option}
+            </span>
+          </li>
+        ))}
       </ul>
     </section>
   )
