@@ -7,11 +7,9 @@ function Header(props) {
     setCurrentNav
   } = props;
 
-  console.log(navOptions);
-
   // return JSX for my name and nav links
   return (
-    <section>
+    <section className="header">
       <h1>Claire Wright</h1>
       <ul>
         {navOptions.map((option) => (

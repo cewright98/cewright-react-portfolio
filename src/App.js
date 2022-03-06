@@ -34,16 +34,18 @@ function App() {
   };
 
   return (
-    <div>
-      <Header
-        navOptions={navOptions}
-        currentNav={currentNav}
-        setCurrentNav={setCurrentNav}
-      ></Header>
-      <main>
-        {/* conditionally render components here */}
-        {renderCurrentNav()}
-      </main>
+    <div className='page-container'>
+      <div className='content-wrap'>
+        <Header
+          navOptions={navOptions}
+          currentNav={currentNav}
+          setCurrentNav={setCurrentNav}
+        ></Header>
+        <main>
+          {/* conditionally render components here */}
+          {renderCurrentNav()}
+        </main>
+      </div>
       <Footer></Footer>
     </div>
   );

@@ -1,10 +1,19 @@
+:root { 
+  --color1: #A2A182;
+  --color2: #687259;
+  --color3: #F4ECE2;
+  --color4: #BA6F4D;
+  --color5: #8E412E;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Roboto Slab', serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--color4);
+  background-color: var(--color3);
 }
 
 code {
@@ -13,5 +22,171 @@ code {
 }
 
 .navActive {
-  color: blue;
+  color: var(--color2);
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  color: var(--color5);
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 10%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.about {
+  border-left: solid var(--color2);
+  margin: 0 8% 0 8%;
+  padding-left: 4%;
+}
+
+h2 {
+  color: var(--color2);
+  font-size: 25px;
+}
+
+.about img {
+  max-width: 60%;
+  border-radius: 65px;
+}
+
+.about p {
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio .container {
+  position: relative;
+  text-align: center;
+}
+
+.portfolio img { 
+  max-width: 70%;
+  margin-bottom: 4%;
+}
+
+.container img:hover {
+  opacity: 30%;
+}
+
+.container:hover .container-text {
+  opacity: 100%;
+}
+
+.portfolio .container-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.portfolio .container-text a {
+  color: var(--color5);
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact label {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+
+.contact input, .contact textarea {
+  width: 60%;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.contact button {
+  background-color: var(--color1);
+  border-radius: 3px;
+  border: none;
+  color: var(--color5);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px;
+  margin: 8px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 17px;
+}
+
+.resume {
+  text-align: center;
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--color4);
+  font-family: 'Roboto Slab', serif;
+}
+
+.resume a span {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resume h3 {
+  font-size: 25px;
+}
+
+.resume ul {
+  text-align: start;
+  list-style: disc;
+  margin-left: 50px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.resume li {
+  padding: 3px;
+}
+
+.page-container {
+  position: relative;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-right: 35px;
+}
+
+.footer li {
+  padding: 15px;
+}
+
+.footer li a {
+  color: var(--color5);
+  font-size: 20px;
+  cursor: pointer;
 }

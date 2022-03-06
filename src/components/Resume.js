@@ -1,13 +1,13 @@
 function Resume() {
   // return JSX for downloadable resume link and my proficiencies
   return (
-    <section>
-      <h1>Resume</h1>
+    <section className="resume">
+      <h2>Resume</h2>
       <a href='/resume.pdf' download='Claire Wright Resume'>
-        Click to download my resume
+        <span>Download</span> my resume
       </a>
       <div>
-        <h2>Front-End Proficiencies</h2>
+        <h3>Front-End Proficiencies</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -18,7 +18,7 @@ function Resume() {
         </ul>
       </div>
       <div>
-        <h2>Back-End Proficiencies</h2>
+        <h3>Back-End Proficiencies</h3>
         <ul>
           <li>Node</li>
           <li>Express</li>
