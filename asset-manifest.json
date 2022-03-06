@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cewright-react-portfolio/static/css/main.0c560494.css",
-    "main.js": "/cewright-react-portfolio/static/js/main.0ce2f4a5.js",
+    "main.js": "/cewright-react-portfolio/static/js/main.c0b588f5.js",
     "static/js/787.a2cb61a6.chunk.js": "/cewright-react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/about-me-photo.png": "/cewright-react-portfolio/static/media/about-me-photo.466683f505a124219183.png",
     "static/media/StarGazr.png": "/cewright-react-portfolio/static/media/StarGazr.7cdde592d14a881fd5ef.png",
@@ -10,13 +10,14 @@
     "static/media/GamePlaylist.png": "/cewright-react-portfolio/static/media/GamePlaylist.3cbfa1ed1096fcfcf046.png",
     "static/media/work-day-scheduler.png": "/cewright-react-portfolio/static/media/work-day-scheduler.38ee0903c3a297f8d246.png",
     "static/media/note-taker.png": "/cewright-react-portfolio/static/media/note-taker.4913f26321e3fc2b2542.png",
+    "static/media/resume.pdf": "/cewright-react-portfolio/static/media/resume.7237246c047f2f909daf.pdf",
     "index.html": "/cewright-react-portfolio/index.html",
     "main.0c560494.css.map": "/cewright-react-portfolio/static/css/main.0c560494.css.map",
-    "main.0ce2f4a5.js.map": "/cewright-react-portfolio/static/js/main.0ce2f4a5.js.map",
+    "main.c0b588f5.js.map": "/cewright-react-portfolio/static/js/main.c0b588f5.js.map",
     "787.a2cb61a6.chunk.js.map": "/cewright-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c560494.css",
-    "static/js/main.0ce2f4a5.js"
+    "static/js/main.c0b588f5.js"
   ]
 }
