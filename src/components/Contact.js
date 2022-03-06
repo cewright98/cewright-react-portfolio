@@ -37,6 +37,9 @@ function Contact() {
     e.preventDefault();
     console.log(formState);
 
+    //clear form after submit
+    setFormState({ name: '', email: '', message: ''});
+
     // add functionality to store message data
   }
 
