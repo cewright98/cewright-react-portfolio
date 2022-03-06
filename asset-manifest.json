@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cewright-react-portfolio/static/css/main.0c560494.css",
+    "main.js": "/cewright-react-portfolio/static/js/main.bf2184c6.js",
+    "static/js/787.a2cb61a6.chunk.js": "/cewright-react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "index.html": "/cewright-react-portfolio/index.html",
+    "main.0c560494.css.map": "/cewright-react-portfolio/static/css/main.0c560494.css.map",
+    "main.bf2184c6.js.map": "/cewright-react-portfolio/static/js/main.bf2184c6.js.map",
+    "787.a2cb61a6.chunk.js.map": "/cewright-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c560494.css",
+    "static/js/main.bf2184c6.js"
+  ]
+}
