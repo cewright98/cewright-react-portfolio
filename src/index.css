@@ -4,6 +4,7 @@
   --color3: #F4ECE2;
   --color4: #BA6F4D;
   --color5: #8E412E;
+  --color6: #E6CEBC;
 }
 
 body {
@@ -28,9 +29,14 @@ code {
 
 .header {
   text-align: center;
-  margin-top: 8%;
-  margin-bottom: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   color: var(--color5);
+  background-color: var(--color1);
+}
+
+.header h1 {
+  font-size: 35px;
 }
 
 .header ul {
@@ -39,6 +45,7 @@ code {
   justify-content: space-evenly;
   margin-right: 10%;
   font-family: 'Roboto Slab', serif;
+  font-size: 18px;
 }
 
 .header ul li {
@@ -73,16 +80,17 @@ h2 {
 .portfolio .container {
   position: relative;
   text-align: center;
+  max-width: 70%;
+  margin: auto;
 }
 
 .portfolio img { 
-  max-width: 70%;
+  max-width: 100%;
   margin-bottom: 4%;
-  cursor: pointer;
 }
 
-.container img:hover {
-  opacity: 30%;
+.container:hover img {
+  opacity: 40%;
 }
 
 .container:hover .container-text {
@@ -97,6 +105,7 @@ h2 {
   opacity: 0;
   font-weight: bold;
   font-size: 22px;
+  cursor: pointer;
 }
 
 .portfolio .container-text a {
@@ -201,7 +210,7 @@ h2 {
 
 @media only screen and (min-width: 768px) {
   .header h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .header ul {
@@ -260,7 +269,7 @@ h2 {
   .header {
     font-size: 75px;
     margin: 0;
-    padding: 0;
+    padding: 2px;
   }
 
   .header ul {

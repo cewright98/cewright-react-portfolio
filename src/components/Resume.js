@@ -1,9 +1,11 @@
+import resume from '../assets/resume.pdf';
+
 function Resume() {
   // return JSX for downloadable resume link and my proficiencies
   return (
     <section className="resume">
       <h2>Resume</h2>
-      <a href='/resume.pdf' download='Claire Wright Resume'>
+      <a href={resume} download='Claire Wright Resume'>
         <span>Download</span> my resume
       </a>
       <div>

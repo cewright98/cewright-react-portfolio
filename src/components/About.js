@@ -1,10 +1,12 @@
+import photo from '../assets/about-me-photo.png';
+
 function About() {
   // return JSX with my photo and short bio
   return (
     <section className="about">
       <h2>About Me</h2>
       <div className="about-container">
-        <img src="/about-me-photo.png" alt="photo of Claire Wright"></img>
+        <img src={photo} alt="Claire Wright headshot"></img>
         <p>
           Hi! My name is Claire Wright and I am a web developer currently enrolled in the UNC Coding Boot Camp. 
           I graduated from UNC-Chapel Hill in May 2020 with a double major in Political Science and Women's and Gender Studies.              
