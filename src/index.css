@@ -291,6 +291,22 @@ h2 {
     margin-left: 40px;
   }
 
+  .portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 75px;
+  }
+
+  .portfolio .container {
+    max-width: 27%;
+    margin: 40px;
+    flex: 50%;
+  }
+
+  .portfolio .container-text {
+    font-size: 30px;
+  }
+
   .error-text {
     font-size: 25px;
   }
