@@ -294,7 +294,7 @@ h2 {
   .portfolio .row {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 75px;
+    padding-left: 30px;
   }
 
   .portfolio .container {
