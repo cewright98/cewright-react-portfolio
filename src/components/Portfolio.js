@@ -3,7 +3,7 @@ import photo2 from '../assets/note-taker.png';
 import photo3 from '../assets/GamePlaylist.png';
 import photo4 from '../assets/StarGazr.png';
 import photo5 from '../assets/work-day-scheduler.png';
-import photo6 from '../assets/e-commerce-database.png';
+import photo6 from '../assets/Roadie.png';
 
 function Portfolio() {
   // return JSX with 6 of my applications with deployed and github links
@@ -56,7 +56,7 @@ function Portfolio() {
         <div className="container">
           <img src={photo5} alt="Work Day Scheduler Preview"></img>
           <div className="container-text">
-            <a href="https://cewright98.github.io/work-day-scheduler//" target="_blank">Work Day Scheduler</a>
+            <a href="https://cewright98.github.io/work-day-scheduler/" target="_blank">Work Day Scheduler</a>
             <br />
             <a href="https://github.com/cewright98/work-day-scheduler" target="_blank">
               <i className="fa fa-github"></i>
@@ -64,11 +64,11 @@ function Portfolio() {
           </div>
         </div>
         <div className="container">
-          <img src={photo6} alt="E-Commerce Database Preview"></img>
+          <img src={photo6} alt="Roadie Preview"></img>
           <div className="container-text">
-            <a href="https://github.com/cewright98/e-commerce-database" target="_blank">Express Note Taker</a>
+            <a href="https://on-the-roadie.herokuapp.com/" target="_blank">Roadie</a>
             <br />
-            <a href="https://github.com/cewright98/e-commerce-database" target="_blank">
+            <a href="https://github.com/Osamadahnoun/roadie" target="_blank">
               <i className="fa fa-github"></i>
             </a>
           </div>
