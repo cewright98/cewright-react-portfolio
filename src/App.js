@@ -46,7 +46,9 @@ function App() {
           {renderCurrentNav()}
         </main>
       </div>
-      <Footer></Footer>
+      {currentNav !== 'Contact' && 
+        <Footer></Footer>
+      }
     </div>
   );
 }

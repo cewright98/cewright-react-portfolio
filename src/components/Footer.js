@@ -13,11 +13,6 @@ function Footer() {
             <i className="fa-brands fa-linkedin"></i>
           </a>
         </li>
-        <li>
-          <a href="https://stackoverflow.com/users/16845365/claire-wright" target="_blank">
-            <i className="fa-brands fa-stack-overflow"></i>
-          </a>
-        </li>
       </ul>
     </section>
   )
